@@ -19,11 +19,13 @@ http://localhost:3000/api-docs
 
 POST /get-encrypt-data
 Request
+```json
 {
   "payload": "hello world"
 }
-
+```
 Response:
+```json
 {
   "successful": true,
   "data": {
@@ -31,17 +33,21 @@ Response:
     "data2": "iv:encrypted_payload"
   }
 }
-
+```
 POST /get-decrypt-data
 Request Body
+```json
 {
   "data1": "string",
   "data2": "string"
 }
+```
 Response:
+```json
 {
   "successful": true,
   "data": {
     "payload": "hello world"
   }
 }
+```
