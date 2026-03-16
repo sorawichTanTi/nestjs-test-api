@@ -32,8 +32,6 @@ Response:
   }
 }
 
-## ==========================================
-
 POST /get-decrypt-data
 Request Body
 {
