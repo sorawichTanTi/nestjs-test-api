@@ -18,13 +18,14 @@ http://localhost:3000/api-docs
 ## API Endpoints
 
 POST /get-encrypt-data
-Request
+
+Request :
 ```json
 {
   "payload": "hello world"
 }
 ```
-Response:
+Response :
 ```json
 {
   "successful": true,
@@ -35,14 +36,15 @@ Response:
 }
 ```
 POST /get-decrypt-data
-Request Body
+
+Request :
 ```json
 {
   "data1": "string",
   "data2": "string"
 }
 ```
-Response:
+Response :
 ```json
 {
   "successful": true,
