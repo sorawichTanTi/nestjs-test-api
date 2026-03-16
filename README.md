@@ -1,5 +1,3 @@
-## Description
-
 ## Installation
 
 npm install
